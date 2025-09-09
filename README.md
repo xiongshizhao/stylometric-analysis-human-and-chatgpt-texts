@@ -31,7 +31,16 @@ This study addresses four research questions in authorship attribution:
 ### Repository Structure
 
 - **Code**  
-  R scripts for data preprocessing, feature extraction, classifier training, and evaluation.
+  R scripts for data preprocessing, feature extraction, and classifier training.
+  - `setup.R` — Environment setup and helper functions
+  - **study1/** — Scripts for testing essay representation strategies  
+    - `howessayrepresentation.R`  
+  - **study2/** — Scripts for parameter selection and excerpt-based analysis  
+    - `essaylength.R`  
+  - **study3/** — Scripts for training data size reduction  
+    - `traindatasize.R`  
+  - **study4/** — Scripts for topic relevance experiments  
+    - `all_other_topics.R`, `only_one_other_topic.R`, `only_this_topic.R`  
 
 - **data**  
   - **rawtext**  
@@ -51,10 +60,14 @@ This study addresses four research questions in authorship attribution:
 
 
 - **Results**  
-  Organised outputs and figures from each of the four studies.
-
-- **Figures**  
-  Plots and visualisations illustrating classifier performance and study findings.
+  Organised outputs from each of the four studies.
+  - `MDS_plot.png` — Multi-Dimensional Scaling plot illustrating essay similarity
+  - **study1/** — Classifier results for essay representation (Delta, RF, SVMs, in `.png`)  
+  - **study2/** — Results for parameter tuning and excerpt-based analysis (Delta, RF, SVMs, in `.png`)  
+  - **study3/** — Results for training data size reduction (Delta, RF, SVMs, in `.png`)  
+  - **study4/** — Results for topic relevance experiments  
+    - **figures/** — Performance plots and cross-scenario comparisons (`.png`)  
+    - **tables/** — Summary tables of classifier performance (`.xlsx`)  
 
 ---
 

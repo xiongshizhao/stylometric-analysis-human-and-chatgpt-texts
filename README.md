@@ -80,9 +80,9 @@ This study addresses four key research questions in authorship attribution, each
 
 ### Classifiers Evaluated  
 
-- **Burrows’ Delta**
-- **Random Forest**  
-- **Support Vector Machines**  
+- **Burrows’ Delta (Delta)**
+- **Random Forest (RF)**  
+- **Support Vector Machines (SVMs)**  
 
 Performance was assessed using accuracy, precision, recall, and F1 score.  
 
@@ -90,9 +90,9 @@ Performance was assessed using accuracy, precision, recall, and F1 score.
 
 ### Future Directions  
 
-- Extend the dataset to include texts from other large language models.  
-- Investigate hybrid authorship (human + AI collaboration).  
-- Explore ensemble methods to improve robustness across topics and text lengths.  
+- Extend analysis to texts combining human and AI writing (e.g., human-edited AI drafts). Methods such as rolling stylometry could help detect stylistic shifts within a single document.  
+- Compare classifier performance on outputs from multiple large language models (e.g., ChatGPT variants, Claude, Gemini) to assess generalisability.  
+- Move beyond the current 70-function-word approach by incorporating syntactic patterns, punctuation usage, or n-grams to capture additional stylistic signals.  
 
 ---
 

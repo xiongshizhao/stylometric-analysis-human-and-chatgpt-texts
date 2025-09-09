@@ -19,12 +19,19 @@ The project investigates whether function-word-based stylometry can reliably dis
 
 ### Project Overview  
 
-This study addresses four research questions in authorship attribution:  
+This study addresses four key research questions in authorship attribution, each implemented as a separate study with corresponding scripts and results:  
 
-1. Whether human essays should be treated as a single aggregated class or as distinct authorial voices.  
-2. How essay length influences classifier performance.  
-3. How performance shifts when training data is limited.
-4. Whether classifiers generalise across topics or rely on topic-specific features.  
+1. **Study 1 – Aggregated vs. Individual Treatment of Human Essays**  
+   Whether human essays should be treated as a single aggregated class or as distinct authorial voices.  
+
+2. **Study 2 – Impact of Essay Length**  
+   How essay length, including 200-word excerpts, influences classifier performance.  
+
+3. **Study 3 – Impact of Training Data Size**  
+   How performance shifts when training data is reduced (100%, 50%, 20%, 10%).  
+
+4. **Study 4 – Influence of Topic Relevance**  
+   Whether classifiers generalise across topics or rely on topic-specific features.  
 
 ---
 
@@ -33,13 +40,13 @@ This study addresses four research questions in authorship attribution:
 - **Code**  
   R scripts for data preprocessing, feature extraction, and classifier training.
   - `setup.R` — Environment setup and helper functions
-  - **study1/** — Scripts for testing essay representation strategies  
+  - **study1** — Scripts for testing essay representation strategies  
     - `howessayrepresentation.R`  
-  - **study2/** — Scripts for parameter selection and excerpt-based analysis  
+  - **study2** — Scripts for parameter selection and excerpt-based analysis  
     - `essaylength.R`  
-  - **study3/** — Scripts for training data size reduction  
+  - **study3** — Scripts for training data size reduction  
     - `traindatasize.R`  
-  - **study4/** — Scripts for topic relevance experiments  
+  - **study4** — Scripts for topic relevance experiments  
     - `all_other_topics.R`, `only_one_other_topic.R`, `only_this_topic.R`  
 
 - **data**  
@@ -62,28 +69,12 @@ This study addresses four research questions in authorship attribution:
 - **Results**  
   Organised outputs from each of the four studies.
   - `MDS_plot.png` — Multi-Dimensional Scaling plot illustrating essay similarity
-  - **study1/** — Classifier results for essay representation (Delta, RF, SVMs, in `.png`)  
-  - **study2/** — Results for parameter tuning and excerpt-based analysis (Delta, RF, SVMs, in `.png`)  
-  - **study3/** — Results for training data size reduction (Delta, RF, SVMs, in `.png`)  
-  - **study4/** — Results for topic relevance experiments  
-    - **figures/** — Performance plots and cross-scenario comparisons (`.png`)  
-    - **tables/** — Summary tables of classifier performance (`.xlsx`)  
-
----
-
-### Studies Conducted  
-
-1. **Study 1 – Aggregated vs. Individual Treatment of Human Essays**  
-   Comparison of classification when human essays are treated as one group versus as distinct authorial styles.  
-
-2. **Study 2 – Impact of Essay Length**  
-   Evaluation of classifier performance on full length essays versus 200-word excerpts.  
-
-3. **Study 3 – Impact of Training Data Size**  
-   Analysis of how reducing the proportion of training essays (100%, 50%, 20%, 10%) influences classifier robustness.  
-
-4. **Study 4 – Influence of Topic Relevance**  
-   Assessment of whether classification depends on topic-specific cues, comparing within-topic training, unrelated-topic training, and cross-topic training.  
+  - **study1** — Classifier results for essay representation (Delta, RF, SVMs, in `.png`)  
+  - **study2** — Results for parameter tuning and excerpt-based analysis (Delta, RF, SVMs, in `.png`)  
+  - **study3** — Results for training data size reduction (Delta, RF, SVMs, in `.png`)  
+  - **study4** — Results for topic relevance experiments  
+    - **figures** — Performance plots and cross-scenario comparisons (`.png`)  
+    - **tables** — Summary tables of classifier performance (`.xlsx`)  
 
 ---
 

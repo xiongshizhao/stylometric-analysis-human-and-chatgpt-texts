@@ -88,21 +88,6 @@ Performance was assessed using accuracy, precision, recall, and F1 score.
 
 ---
 
-### How to Use  
-
-1. **Prepare Data**  
-   - Extract `GPTessays.zip`, `humanessays.zip`, and `functionwords.zip`.  
-
-2. **Run Analyses**  
-   - Use the R scripts in the `Code/` folder.  
-   - Example usage:  
-     - `form_of_data.R` → Study 1  
-     - `WordLength.R` → Study 2  
-     - `traindata_size.R` → Study 3  
-     - `Except topic.R`, `Except_only_topic.R` and `OnlyTopic.R` → Study 4  
-
----
-
 ### Future Directions  
 
 - Extend the dataset to include texts from other large language models.  

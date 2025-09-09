@@ -3,13 +3,13 @@ This repository contains the code, data, and results for a stylometric study on 
 The project investigates whether function-word-based stylometry can reliably distinguish human-written essays from ChatGPT-4o-mini generated texts. We evaluate three classifiers and examine how essay representation, text length, training data size, and topic relevance affect classification performance.  
 
 
-### Authors:
+### Authors
 - Jingqi He  
-  Email: [j.he-40@sms.ed.ac.uk](mailto:j.he-40@sms.ed.ac.uk)
-- Rongzhi Chen
-  Email: [r.chen-52@sms.ed.ac.uk](mailto:r.chen-52@sms.ed.ac.uk)
+  Email: [j.he-40@sms.ed.ac.uk](mailto:j.he-40@sms.ed.ac.uk)  
+- Rongzhi Chen  
+  Email: [r.chen-52@sms.ed.ac.uk](mailto:r.chen-52@sms.ed.ac.uk)  
 - Shizhao Xiong  
-  Email: [s.xiong-8@sms.ed.ac.uk](mailto:s.xiong-8@sms.ed.ac.uk)
+  Email: [s.xiong-8@sms.ed.ac.uk](mailto:s.xiong-8@sms.ed.ac.uk)  
 
 ### Supervisor:
 - Gordon J. Ross, Reader at the University of Edinburgh  
@@ -28,21 +28,21 @@ This study addresses four research questions in authorship attribution:
 
 ---
 
-### Repository Structure  
+### Repository Structure
 
-**Code/**  
-R scripts for data preprocessing, feature extraction, classifier training, and evaluation.  
+- **Code**  
+  R scripts for data preprocessing, feature extraction, classifier training, and evaluation.
 
-**Data/**  
-- `GPTessays.zip`: ChatGPT-4o-mini generated essays.  
-- `humanessays.zip`: Human-authored essays.  
-- `functionwords.zip`: Function word counts and essay titles.  
+- **Data**  
+  - `GPTessays.zip`: ChatGPT-4o-mini generated essays  
+  - `humanessays.zip`: Human-authored essays  
+  - `functionwords.zip`: Function word counts and essay titles  
 
-**Results/**  
-Organised outputs and figures from each of the four studies.  
+- **Results**  
+  Organised outputs and figures from each of the four studies.
 
-**Figures/**  
-Plots and visualisations illustrating classifier performance and study findings.  
+- **Figures**  
+  Plots and visualisations illustrating classifier performance and study findings.
 
 ---
 

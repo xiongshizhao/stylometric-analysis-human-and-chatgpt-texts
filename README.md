@@ -33,10 +33,16 @@ This study addresses four research questions in authorship attribution:
 - **Code**  
   R scripts for data preprocessing, feature extraction, classifier training, and evaluation.
 
-- **Data**  
-  - `GPTessays.zip`: ChatGPT-4o-mini generated essays  
-  - `humanessays.zip`: Human-authored essays  
-  - `functionwords.zip`: Function word counts and essay titles  
+- **data**  
+  - **rawtext**  
+    - `GPTessays.zip`: ChatGPT-4o-mini generated essays  
+    - `humanessays.zip`: Human-authored essays  
+
+  - **functionwords**  
+    - `GPTfunctionwords.zip`: Function word counts for GPT essays  
+    - `humanfunctionwords.zip`: Function word counts for human essays  
+    - `70functionword.txt`: List of the 70 function words used in the analysis  
+    - `titles.zip`: Essay titles (included for completeness, not required for analysis) 
 
 - **Results**  
   Organised outputs and figures from each of the four studies.

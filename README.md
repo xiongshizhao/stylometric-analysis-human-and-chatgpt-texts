@@ -1,4 +1,4 @@
-# Stylometric Approaches to Authorship Attribution: Distinguishing Human-Written and ChatGPT-4o-mini Generated Texts
+# Stylometric Detection of AI-Generated Texts: Evidence from Human and Machine-Written Essays
 This repository contains the code, data, and results for a stylometric study on authorship attribution.  
 
 The project investigates whether function-word-based stylometry can reliably distinguish human-written essays from ChatGPT-4o-mini generated texts. We evaluate three classifiers and examine how essay representation, text length, training data size, and topic relevance affect classification performance.  
